@@ -1,0 +1,67 @@
+css
+selectors:
+elements
+class
+id
+group
+universal
+for border we give border color border width and border style
+properties for background
+background-image : To set the background image
+background-repeat :to set repeat or not repeat the image
+background-color :to set the background color
+background-position : to set the background alignments
+example:
+left top
+left center
+left bottom
+right top
+right center
+right bottom
+center top
+center center
+center bottom
+background-size :auto 
+background-repeat : no-repeat
+background-color : fixed
+background-position : center
+
+css syntax
+selector{property-name:value; property-name:value;}
+
+Tree ways to insert css:
+Inline /* */
+Internal <!-- -- >
+short hand method
+for background first we give color and then image and
+
+Margin:
+margin-top:10px;    |
+margin-bottom:10px; |for individual value
+margin-left:10px;   |
+margin-right:10px;  |
+
+for short hand:
+margin:10px 5px 50px 50px; |first value top second right third bottom fourth left
+if it has three value first value top second leftandright third bottom
+
+padding:
+padding-top:10px;    |
+padding-bottom:10px; |for individual value
+padding-left:10px;   |
+padding-right:10px;  |
+
+there or two type of box content-box calculate height width padding and then align and border-box but border box didn't take padding
+
+position
+{
+there are five position
+properties:
+position:static; default
+position:absolute; it overlay the content
+position:fixed; content only scroll 
+position:sticky: it align on top or bottom
+position:relative; we can move the position top left bottom right with pixel size
+
+z-index(-1,0,1 these are the only values)pinnadi irukkuradha munnaddi konduvaradhuku
+

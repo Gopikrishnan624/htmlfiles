@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="luffy.html" id="form">
+        <fieldset>
+        <h2><center>Student Registration Form </center></h2>
+        <fieldset><legend style="border: 2px;">Forms</legend>
+        <div>
+    
+        <label for="username">Firstname :</label><br>
+        <input id="username" type="text" name="Uname" placeholder="Enter first name" required ><br><br></div>
+        <div class="input-box">
+        <label for="username">Middlename :</label><br>
+        <input id="username" type="text" name="Uname" placeholder="Enter middle name" required><br><br></div>
+        <div class="input-box">
+        <label for="username">Lastname :</label><br>
+        <input id="username" type="text" name="Uname" placeholder="Enter last name" required><br><br></div>
+
+        <div>
+            <label for="course">Course :</label>
+            <select name="course" id="course">
+                <option value="html">Html</option>
+                <option value="css">Css</option>
+                <option value="javascript">Javascript</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="gender">Gender :</label>
+            <input id="male" type="radio" value="male" name="gender" required>
+            <label for="male">Male</label>
+            <input id="female" type="radio" value="female" name="gender" required>
+            <label for="female">Female</label>
+            <input id="others" type="radio" value="others" name="gender" required>
+            <label for="others">Others</label>
+        </div><br>
+        <div>
+            <label for="phone">Phone :</label><br>
+            <input id="phone" type="tel" value="+91" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+            <input id="phone1" type="tel" placeholder="phone number">
+        </div>
+        <div>
+            <label for="address">Address :</label><br>
+            <textarea name="address" id="address" placeholder="current address"></textarea>
+        </div>
+        <div>
+        <label for="email">Email :</label><br>
+        <input id="email" type="email" name="Email" placeholder="Enter Email" required></div><br>
+        <div>
+            <label for="password">Password :</label><br>
+            <input id="password" type="password" name="Password" placeholder="Enter Password" required></div><br>
+            <label for="password">RetypePassword :</label><br>
+            <input id="password" type="password" name="Password" placeholder="Retype Password" required></div><br><br>
+            <button type="submit" class="btn" id="submit">Register</button>
+        
+    </form>
+</fieldset></fieldset>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body
+{ 
+    margin-left: 450px;
+}
+table
+{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    margin:0; padding:0; 
+    border-spacing:0; 
+    text-align: center;
+    height: 700px; 
+    width: 600px;
+}
+td 
+{ 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black; 
+    margin:0; padding:0; 
+    width:50px;
+}
+tr 
+{ 
+    height: 22px; 
+}
+
+.first-row 
+{ 
+    background-color: red; 
+}
+.second-row 
+{ 
+    background-color: orange; 
+}
+.third-row 
+{ 
+    background-color: yellow; 
+}
+.forth-row 
+{ 
+    background-color: green; 
+}
+.fifth-row 
+{
+    background-color: rgb(100, 149, 237); 
+}
+.sixth-row 
+{ 
+    background-color: blue; 
+}
+.seventh-row 
+{ 
+    background-color: purple; 
+}

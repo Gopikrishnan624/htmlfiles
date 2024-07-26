@@ -1,0 +1,19 @@
+body
+{
+    background-image: url(./images/luffy.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.p
+{
+    background-image: url(./images/beach.jpg);
+    background-size: 600px;
+    width: 400px;
+    height: 350px;
+    border: 2px solid rgba(rgb(141, 230, 228), green, blue, alpha);
+    border-top: 5px groove rgb(194, 145, 239);
+    border-left: 5px dashed rgb(175, 175, 240);
+    border-right: 5px double violet;
+    border-bottom:5px dotted rgb(250, 100, 250) ;
+}

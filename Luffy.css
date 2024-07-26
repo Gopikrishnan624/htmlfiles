@@ -1,0 +1,28 @@
+h1{
+    color: rgb(73, 161, 233) ;
+    height: 1cm;
+    background-image: url(images/beach.jpg);
+    background-size: cover;
+
+}
+
+body{
+    background-image:url("https://backiee.com/static/wallpapers/1000x563/232473.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+   }
+
+   h4 {
+    
+color: blue;
+   }
+   a {
+    color: aqua;
+    text-align: right;
+   }
+
+   img:hover {
+   transform: scale(1.2);
+   }
+  

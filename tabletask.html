@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="data:image/jpeg;base64,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">
+</head>
+<body>
+    <style>
+        body
+        {
+            background-color: black;
+            margin:auto;
+        }
+        table
+        {
+        
+          column-rule-color: rgb(120, 113, 113);
+          border-collapse: collapse;
+          margin-left: 300px;
+        }
+        tr
+        {
+            color: white;
+            border: 1px solid rgb(85, 76, 76);
+        }
+        td
+        {
+            border: 1px solid rgb(82, 74, 74); 
+        }
+    </style>
+    <h1 style="color: white;"><center>Promotion Plans</center></h1>
+    <table border="1px" cellpadding="6" style="width: 900px; height: 600px;">
+       <tr style="text-align: center;"><th style="text-align: left; color:black; background-color: white;">COMPARE ALL PLANS</th>
+        <th style="color: white; background-color: orange;">STARTER</th>
+        <th style="color: white; background-color: red;">ADVANCE</th>
+        <th style="color: white; background-color: skyblue;">ENTERPRISE</th></tr> 
+       <tr style="text-align: center;">
+        <td style="text-align: left;">1st Month Management Cost</td>
+        <td>$400</td>
+        <td>$900</td>
+        <td>$1400</td>
+       </tr>
+       <tr style="text-align: center;">
+        <td style="text-align: left;">Following Month</td>
+        <td style="color: orange;font-size: 20px;">$300</td>
+        <td style="color: red;font-size: 20px;">$700</td>
+        <td style="color: skyblue;font-size: 20px;">$900</td>
+       </tr>
+       <tr style="text-align: center;">
+        <td style="text-align: left;">Delivery Time Frame</td>
+        <td>3-6 Months</td>
+        <td>3-6 Months</td>
+        <td>3-6 Months</td>
+       </tr>
+       <tr style="text-align: center;">
+        <td style="text-align: left;">Support 24/7</td>
+        <td>-</td>
+        <td style="color: orange;font-size: 25px;">&#10003;</td>
+        <td style="color: orange;font-size: 25px;">&#10003;</td>
+       </tr>
+       <tr style="text-align: center;">
+        <td style="text-align: left;">Certificate</td>
+        <td>-</td>
+        <td style="color: orange;font-size: 25px;">&#10003;</td>
+        <td style="color: orange;font-size: 25px;">&#10003;</td>
+       </tr>
+       <tr style="text-align: center;">
+        <td style="text-align: left;">Guaranteed Keywords Ranking in <br>First Page Of Google</td>
+        <td>18</td>
+        <td>20</td>
+        <td>28</td>
+       </tr>
+       <tr>
+        <td></td>
+        <td><button style="margin-left: 50px;border-radius: 15px; width: 100px; height: 30px; background-color: red;color: white;">BUY NOW</button></td>
+        <td><button style="margin-left: 50px;border-radius: 15px; width: 100px; height: 30px;background-color: red;color: white;">BUY NOW</button></td>
+        <td><button style="margin-left: 50px;border-radius: 15px; width: 100px; height: 30px; background-color: red;color: white;">BUY NOW</button></td>
+       </tr>
+    </table>
+</body>
+</html>

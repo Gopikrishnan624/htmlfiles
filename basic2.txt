@@ -1,0 +1,15 @@
+favicon used for set icon
+<link rel="icon" type="image href="link">this tag has no closing tag
+<!-- comment -->
+/*---------*/ to mark it used for thevapadatha taga run pannama pandrathuku
+<video width="320" height controls autoplay>controls used to give autoplay there are also loop attribute used for play video on loop
+ used for insert video
+<audio>used for insert audio its also as same as video tag
+iframe is used to oru websitekullakulla  innoru website kondu varadhuku
+<iframe src="" width="" height="" style="border:1px">
+class ondruku merpata idathil style use pandradhuku in style we use .classname <div><h1>html</h1>
+id for unique purpose we define id with #
+meta tag is the information of the site in meta content we describe the site content
+forms
+semantic - partha odane kandupudichidalam edhuku use pannuvomnu ex.navbar
+non-semantic-partha odane kandupudika mudiyadhu ex.div

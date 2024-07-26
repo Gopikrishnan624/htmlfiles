@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>  Denote version 5
+<html>
+<head> heading purpose
+<h1>to<h6>size of heading
+<title></title> use for title the website name
+</head>
+<body>
+<p>paragraph tag
+<pre> indha tagla nama epdi eluthuromo apdiye show agum
+inside the body we write the contents
+</body></html>
+
+FORMATTING TAGS
+
+<b> bold tags
+<strong> strong also like bold tag used to make a text strong
+<em>font tag
+<i> font tag
+<small> make a text small
+<mark> highlight the words
+<del> delete or strike out the word
+<ins> for underline
+<sup> make a word like power example x cube
+<sub> make word under example H2O
+<bdo> directional tag we give attribute dir=rtl or ltr rtl means right to left
+<thead>
+style="text-align:center"
