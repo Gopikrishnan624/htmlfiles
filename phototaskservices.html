@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'/>
+    <link rel="icon" href="data:image/png;base64,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" >
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+        body
+        {
+            margin: 0;
+        }
+        .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 500px;
+  }
+  .card {
+    width: 350px;
+    height: 370px;
+    margin: 30px;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+h1{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Montserrat", Sans-serif;
+}
+  .car-container {
+    
+    margin: 10px;
+    margin-top:0;
+  }
+  .car {
+    width: 1250px;
+    height: 570px;
+    margin: 20px;
+    margin-left: 110px;
+    margin-top: 0;
+    padding: 15px;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+  }
+  .head
+  {
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+    margin-left: 490px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+  }
+.content
+{
+    width: 1150px;
+    height: 330px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+}
+a
+{
+    margin: 10px;
+}
+ .header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 170px 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white; 
+    background-color: #082B3D;
+  width: 92%;
+  z-index: 1;
+}
+ .heading
+{
+    color: white;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    font-size: 1.625rem;
+    text-transform: uppercase;
+    display: inline;
+    padding-left: 100px;
+    vertical-align: middle;
+    max-width: 350px;
+    float: left;
+
+}
+
+
+ .navbar {          
+    font-size: 20px;
+    top: 0;
+    position: sticky;
+    overflow: auto;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: inline;
+} 
+a
+{
+    text-decoration: none;
+    padding: right 60px;
+    color: white;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    transition: all .5s ease-in-out;
+    transform-origin: bottom left;
+}
+
+.container {
+   width: 100%;
+   height: 600px; 
+  /* margin: 20px auto; */
+  text-align: center;
+  background-image: url(/images/phototask/LAKE-BLOG_750X375_5_The-List-of-the-Most-Innovative-Tech-Companies-in-the-World.jpg);
+  backdrop-filter: brightness(60%);
+  background-repeat: no-repeat;
+ background-size: cover;
+  position: relative; 
+  background-color: #f7f7f7;
+  text-align: center;
+
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title1 {
+  width: 415px;
+  margin-top: 220px;
+   margin-left: 70px; 
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  @keyframes moveDown {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+
+}
+
+.title1 h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #fff;
+}
+
+.title1 p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 36px;
+  animation: moveDown 2s ease-in-out;
+}
+.element
+{
+  margin-top:50px ;
+  text-align: center;
+}
+.element1 {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 29px;
+    /* margin-right: 20px; */
+}
+.element1 p
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: #082B3D;
+}
+#footer
+{
+  margin-top: 30px;
+clear:both;
+width:1494px;
+height:400px;
+background-color:rgb(0, 0, 0);
+font-family:Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:12px;
+color:#333;
+padding:20px 0 0 25px;
+}
+.get{
+  color: #082B3D;
+}
+button:hover
+{
+  
+text-transform: lowercase;
+background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+button
+{
+  background: transparent;
+  color: #224d54;
+  font-size: 20px;
+  border: 2px solid white;
+}
+    </style>
+    <title>SERVICES</title>
+</head>
+<body>
+       <header class="header" style="position: fixed;">
+        <h2 class="heading">EXAMIC</h2> 
+    <nav class="navbar"> <a href="/app/phototask.html"aria-current="page" ><i class="fa fa-fw fa-home"></i> Home</a>
+     <a href="#about"><i class="fa fa-fw fa-user"></i>About</a>
+    <a href="http://127.0.0.1:5500/phototaskservices.html" aria-current="page"><i class="fa-solid fa-gear"></i>Services</a>
+    <a href="#blog"><i class="fa-solid fa-blog"></i></i>Blog</a>
+   <a href="#contact"><i class="fa-solid fa-address-book"></i>Contact</a>
+</nav> </header><br><br><br>
+<div id="service">
+    <div class="car">
+        <div class="car-container">
+            <div class="head">
+        <h2 style=" font-family: Montserrat, sans-serif; font-weight: 700;
+            letter-spacing: 1px; text-align: center;">SERVICES</h2><br><br><hr></div>
+            <div class="card1">
+                <div class="card1-container">
+                </div>
+            </div>
+            <p style="font-family: Montserrat, sans-serif;font-size: 20px;font-weight: 50;">A complete end-to-end digital assessment platform for assessment providers to manage and deliver examinations securely and cost effectively.</p>
+          <div class="content"> <p style="text-align: left;padding: 20px;font-size: 20px;font-weight: 50;font-family: Montserrat, sans-serif;"><i class="fa-brands fa-mendeley" style="font-size: 30px;padding-right: 8px; "></i>End to end exam life-cycle activities</p>
+        <hr>
+    <p style="text-align: left;padding: 20px;font-size: 20px;font-weight: 50;font-family: Montserrat, sans-serif;"><i class="fa-solid fa-network-wired" style="font-size: 30px;padding-right: 8px; "></i>Online and Offline Paper Based Hybrid Modes</p>
+    <hr>
+    <p style="text-align: left;padding: 20px;font-size: 20px;font-weight: 50;font-family: Montserrat, sans-serif;"><i class="fa-solid fa-file-invoice" style="font-size: 30px;padding-right: 8px; "></i>Centralized (Online) and Distributed (LAN based) Delivery</p> 
+   <hr>    
+    <p  style="text-align: left;padding: 20px;font-size: 20px;font-weight: 50;font-family: Montserrat, sans-serif;"><i class="fa-solid fa-user-shield" style="font-size: 30px;padding-right: 8px; "></i>Secure encrypted delivery</p>
+    <hr>
+    <p  style="text-align: left;padding: 20px;font-size: 20px;font-weight: 50;font-family: Montserrat, sans-serif;"><i class="fa-solid fa-check"style="font-size: 30px;padding-right: 8px; "></i>Configurable Analytics</p>
+</div> </div>
+           </div></div>
+        <div class="card-container">
+            <div class="card" style="background-image: url(/images/phototask/1708373261803.png); background-size: 700px; background-repeat: no-repeat;color: #fff;"><h1>Customized Test Creation Tools</h1>
+            <p style="font-family: Montserrat, sans-serif; font-weight: 700;padding: 50px 0px 70px 0px;">These platforms offer educators the ability to create tailored assessments to meet the specific needs of their students and curriculum.</p>
+         <a href="#service"> <button style="width: 120px; height: 40px;border-radius: 0%;">Learn More</button></a></div>
+            <div class="card" style="background-image: url(/images/phototask/0_mfUNFSHyrXnH7ZKf.jpg);background-size: 650px;background-repeat: no-repeat;color: #fff;"><h1>Scalable Test Administration</h1>
+            <p style="font-family: Montserrat, sans-serif; font-weight: 700;padding: 78px 0px 70px 0px;">Digital assessment platforms streamline the process of administering tests, whether in a traditional classroom setting or in remote learning environments.</p>
+             <a href="#service"> <button style="width: 120px; height: 40px;border-radius: 0%;">Learn More</button></a>
+       </div>
+            <div class="card" style="background-image: url(/images/phototask/1000_F_578469007_koamsZDAX4ynYE2M3bJAIb5xSy11QWc4.jpg); background-size: 650px; background-repeat: no-repeat;color: #fff;"><h1>Comprehensive Analytics and Reporting</h1>
+   <p style="font-family: Montserrat, sans-serif; font-weight: 700;padding: 50px 0px 70px 0px;">Digital assessment platforms streamline the process of administering tests, whether in a traditional classroom setting or in remote learning environments.</p>
+   <a href="#service"><button style="width: 120px; height: 40px;border-radius: 0%;">Learn More</button></a>
+ </div>
+</div></div>
+<div class="container">
+  <h2 class="title" style="color: #fff;padding-top: 30px;">WHY EXAMIC</h2>
+  <div class="title-container">
+    <div class="title1">
+      <i class="fa-solid fa-chart-line" style="color: #fff;font-size: 50px;padding-bottom: 20px;"></i>
+      <h2 style="padding-bottom:20px ;">Scalable</h2>
+      <p>Light weight system can be scaled to any size of exam, supporting various exam delivery modes</p>
+    </div>
+    <div class="title1">
+      <i class="fa-solid fa-check" style="color: #fff; font-size: 50px;padding-bottom: 20px;"></i>
+      <h2 style="padding-bottom: 20px;">Simple</h2>
+      <p>Easy to Use</p>
+    </div>
+    <div class="title1">
+      <i class="fa-solid fa-gear fa-solid fa-gears"  style="color: #fff;font-size: 50px; padding-bottom: 20px;"></i>
+      <h2 style="padding-bottom: 20px;">Configurable</h2>
+      <p>Only choose modules you require to integrate into your existing systems.</p>
+    </div>
+  </div>
+</div>
+<section class="element"><h2>EXPERTISE</h2>
+<div class="element1" style="width: 200px;height: 70px;margin-right: 180px;margin-left: 0;">
+  <p>83</p>
+</div>
+<div class="element1" style="width: 60px;height: 70px;margin-left: 0px;"><p>13</p></div><br>
+<div class="element1" style="width: 40px;height: 70px;font-weight: 100; color: rgb(174, 172, 172);font-size: 20px;font-family: Montserrat, sans-serif;"><span>Projects</span></div>
+<div class="element1" style="width: 70px;height: 70px;margin-left: 345px;color: rgb(174, 172, 172);font-weight: 100;font-family: Montserrat, sans-serif;font-size: 20px;"><span>Awards</span></div>
+<div style="font-weight: 100;font-family: Montserrat, sans-serif;font-size: 20px;width: 820px;margin-top: 50px;margin-left: 350px;color: #767777;"><p>Our platform offers a comprehensive suite of services designed to meet diverse assessment needs. From customizable test creation and automated grading to secure online exam delivery and advanced analytics, our tools ensure a seamless and efficient assessment process. We pride ourselves on robust user management, top-notch data security, and accessibility features that cater to all learners. Integrated with major LMS platforms and equipped with interactive learning tools, our portal not only evaluates but also enhances the learning experience. Join us and experience the future of assessments today.</p></div>
+<div style="margin-top: 50px;color: #082B3D;"> <a href="#service"> <button class="get" style="width: 150px; height: 40px;border-radius: 0%;font-family: Montserrat, sans-serif; opacity: 0.6;border: #09354b 2px solid;">GET IN TOUCH 
+</button></a></div></section>
+</div>
+
+<div id=footer style="display: flex; ">
+<div class="footer1" style="width: 350px; height: 320px; margin-right: 50px;margin-left: 150px;font-family: Montserrat, sans-serif;">
+  <h2 style="font-size: 25px;color: #fff; text-transform: uppercase;">About us</h2><br>
+  <p style="font-size: 20px;color: #636262;">At Assessment Portal, we are dedicated to providing top-quality digital assessments for learners and professionals. We strive to enhance learning outcomes through innovative technology and user-friendly design. Join us in transforming the future of education.</p>
+</div>
+  <div class="footer2" style="width: 350px;height:320px 50px;font-family: Montserrat, sans-serif;">
+<h2 style="font-size: 25px;color: #fff;text-transform: uppercase;">Our Address</h2><br><p style="font-size: 20px;color: #636262;">#2963, Ground Floor, Brigade Point, Gokulam Main Road,VV Mohalla, Karnataka.</p></div>
+    <div class="footer3"style="width: 350px; height: 320px; font-family: Montserrat, sans-serif;"><h2 style="font-size: 25px;color: #fff;text-transform: uppercase;">Follow Us</h2><br><p style="font-size: 20px;color: #636262;">Stay in touch with us</p>
+    <br>
+    <i class="fa-brands fa-facebook fa-2x" style="color: #fff;margin-right: 20px;"></i><i class="fa-brands fa-x-twitter fa-2x" style="color: #fff;margin-right: 20px;"></i><i class="fa-brands fa-instagram fa-2x" style="color: #fff;"></i></div> 
+</div> 
+<hr>
+<div id="copyright" style=" color: #545050;font-family: Montserrat, sans-serif;padding-bottom: 10px; padding-top: 20px;background-color: black;">@ 2024  All Rights Reserved By Examic
+<h5 style="float: right;">EXAMIC Edt Pvt Limited.</h5></div>
+</body>
+</html>
